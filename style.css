@@ -1,0 +1,76 @@
+:root {
+  --bs-body-bg: #1c1c1c;
+  --bs-body-color: #ffffff;
+  --bs-primary: #1c1c1c;
+  --bs-secondary: #AFFF00;
+  --bs-secondary-rgb: 175, 255, 0;
+}
+
+body {
+  font-family: 'Fredoka', sans-serif;
+}
+
+.bg-soft-black {
+  background-color: var(--bs-primary) !important;
+}
+
+.text-lime {
+  color: var(--bs-secondary) !important;
+}
+
+.border-lime {
+  border-color: var(--bs-secondary) !important;
+}
+
+.btn-lime {
+  background-color: var(--bs-secondary) !important;
+  color: #000 !important;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-lime:hover {
+  background-color: #ccff33 !important;
+  color: #000 !important;
+}
+
+.lime-placeholder::placeholder {
+  color: #bfff00;
+  opacity: 1;
+}
+
+.animate-slide-in {
+  animation: slideIn 1s ease-out forwards;
+}
+
+.animate-pop {
+  animation: popIn 0.7s ease-out forwards;
+}
+
+.animate-grow {
+  animation: grow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes grow {
+  from { transform: scale(1); }
+  to { transform: scale(1.05); }
+}
+
+.social-icons i {
+  font-size: 1.25rem;
+  transition: color 0.2s ease;
+}
+
+.social-icons i:hover {
+  color: #ccff33;
+}
