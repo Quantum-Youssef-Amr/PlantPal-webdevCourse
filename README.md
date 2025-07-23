@@ -26,13 +26,13 @@ This is a **responsive landing page** project created for a college course on **
 - **Google Fonts** (`Fredoka` or similar)
 
 ## 📁 Folder Structure
-project/
-│
-├── index.html
-├── style.css
-├── /src
-│ └── pngaaa.com-4559895.png
-└── README.md
+project  
+│   
+├── index.html  
+├── style.css  
+├── /src  
+│└── pngaaa.com-4559895.png  
+└── README.md 
 
 ## 📌 Notes
 
